@@ -1,0 +1,120 @@
+2019-04-14 21:47:11 DEBUG logging:22 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2019-04-14 21:47:11 INFO  Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2019-04-14 21:47:12 DEBUG TraversableResolvers:60 - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-04-14 21:47:12 DEBUG ValidationXmlParser:120 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-04-14 21:47:12 DEBUG ResourceLoaderHelper:60 - Trying to load META-INF/validation.xml via TCCL
+2019-04-14 21:47:12 DEBUG ResourceLoaderHelper:66 - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-04-14 21:47:12 DEBUG ValidationXmlParser:127 - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-04-14 21:47:12 DEBUG ResourceBundleMessageInterpolator:89 - Loaded expression factory via original TCCL
+2019-04-14 21:47:12 DEBUG ValidatorFactoryImpl:578 - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-04-14 21:47:12 DEBUG ValidatorFactoryImpl:579 - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-04-14 21:47:12 DEBUG ValidatorFactoryImpl:580 - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-04-14 21:47:12 DEBUG ValidatorFactoryImpl:581 - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-04-14 21:47:12 DEBUG ValidatorFactoryImpl:582 - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-04-14 21:47:12 DEBUG Csv:57 - File has header
+2019-04-14 21:47:12 DEBUG Csv:31 - Unsorted:
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100251,Mary,Stack,Systems Analyst
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100252,James,Array,Business Analyst
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100253,William,String,Systems Engineer
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100254,Paul,Integer,Solutions Architect
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100255,A'nna,,E-Commerce Analyst
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100256,Dennis,Long,Technical Engineer
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100257,Paige,Float,Technical Developer
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100258,Scott,Double,Portal Administrator
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100259,Abby,Boolean,Programmer Analyst
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100260,George,Compiler,Network Analyst
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100261,Rhonda,Interpreter,Wireless Engineer
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100262,Ronald,Coding,Business Continuity Analyst
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100263,Samantha,Cyber,Functional Analyst
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100264,Shane,Hex,Database Administrator
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100265,Chelsea,Decimal,Software Developer
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100266,Owen,Java,Telecommunications Manager
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100267,Robin,Python,Network Security Administrator
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100268,Anthony,Sharp,Project Manager
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100269,Charlotte,Script,Database Developer
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100270,Wilfred,Query,Data Modeler
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100271,Roxanne,List,Applications Developer
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100272,Brett,Object,Technical Support
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100273,Sally,Node,Applications Architect
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100274,Yusuf,Server,Software Engineer
+
+2019-04-14 21:47:12 INFO  Csv:33 - 100275,William,Network,Quality Assurance Associate
+
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100255, fName=A'nna, lName=, jobTitle=E-Commerce Analyst}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100259, fName=Abby, lName=Boolean, jobTitle=Programmer Analyst}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100268, fName=Anthony, lName=Sharp, jobTitle=Project Manager}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100272, fName=Brett, lName=Object, jobTitle=Technical Support}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100269, fName=Charlotte, lName=Script, jobTitle=Database Developer}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100265, fName=Chelsea, lName=Decimal, jobTitle=Software Developer}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100256, fName=Dennis, lName=Long, jobTitle=Technical Engineer}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100260, fName=George, lName=Compiler, jobTitle=Network Analyst}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100252, fName=James, lName=Array, jobTitle=Business Analyst}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100251, fName=Mary, lName=Stack, jobTitle=Systems Analyst}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100266, fName=Owen, lName=Java, jobTitle=Telecommunications Manager}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100257, fName=Paige, lName=Float, jobTitle=Technical Developer}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100254, fName=Paul, lName=Integer, jobTitle=Solutions Architect}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100261, fName=Rhonda, lName=Interpreter, jobTitle=Wireless Engineer}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100267, fName=Robin, lName=Python, jobTitle=Network Security Administrator}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100262, fName=Ronald, lName=Coding, jobTitle=Business Continuity Analyst}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100271, fName=Roxanne, lName=List, jobTitle=Applications Developer}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100273, fName=Sally, lName=Node, jobTitle=Applications Architect}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100263, fName=Samantha, lName=Cyber, jobTitle=Functional Analyst}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100258, fName=Scott, lName=Double, jobTitle=Portal Administrator}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100264, fName=Shane, lName=Hex, jobTitle=Database Administrator}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100270, fName=Wilfred, lName=Query, jobTitle=Data Modeler}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100275, fName=William, lName=Network, jobTitle=Quality Assurance Associate}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100253, fName=William, lName=String, jobTitle=Systems Engineer}
+2019-04-14 21:47:12 INFO  Csv:127 - Valid Employee: Employee{employeeID=100274, fName=Yusuf, lName=Server, jobTitle=Software Engineer}
+2019-04-14 21:47:12 DEBUG Csv:41 - SORTED:
+
+2019-04-14 21:47:12 INFO  Csv:42 - ID,FirstName,LastName,JobTitle
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100255, fName=A'nna, lName=, jobTitle=E-Commerce Analyst}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100259, fName=Abby, lName=Boolean, jobTitle=Programmer Analyst}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100268, fName=Anthony, lName=Sharp, jobTitle=Project Manager}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100272, fName=Brett, lName=Object, jobTitle=Technical Support}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100269, fName=Charlotte, lName=Script, jobTitle=Database Developer}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100265, fName=Chelsea, lName=Decimal, jobTitle=Software Developer}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100256, fName=Dennis, lName=Long, jobTitle=Technical Engineer}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100260, fName=George, lName=Compiler, jobTitle=Network Analyst}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100252, fName=James, lName=Array, jobTitle=Business Analyst}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100251, fName=Mary, lName=Stack, jobTitle=Systems Analyst}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100266, fName=Owen, lName=Java, jobTitle=Telecommunications Manager}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100257, fName=Paige, lName=Float, jobTitle=Technical Developer}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100254, fName=Paul, lName=Integer, jobTitle=Solutions Architect}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100261, fName=Rhonda, lName=Interpreter, jobTitle=Wireless Engineer}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100267, fName=Robin, lName=Python, jobTitle=Network Security Administrator}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100262, fName=Ronald, lName=Coding, jobTitle=Business Continuity Analyst}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100271, fName=Roxanne, lName=List, jobTitle=Applications Developer}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100273, fName=Sally, lName=Node, jobTitle=Applications Architect}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100263, fName=Samantha, lName=Cyber, jobTitle=Functional Analyst}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100258, fName=Scott, lName=Double, jobTitle=Portal Administrator}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100264, fName=Shane, lName=Hex, jobTitle=Database Administrator}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100270, fName=Wilfred, lName=Query, jobTitle=Data Modeler}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100275, fName=William, lName=Network, jobTitle=Quality Assurance Associate}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100253, fName=William, lName=String, jobTitle=Systems Engineer}
+2019-04-14 21:47:12 INFO  Csv:44 - Employee{employeeID=100274, fName=Yusuf, lName=Server, jobTitle=Software Engineer}
+2019-04-14 21:47:12 INFO  Csv:114 - Write Successful
